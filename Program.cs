@@ -23,5 +23,10 @@ if (mode == 2)
 MultiplicationFunction task1 = new MultiplicationFunction(num1, num2, num3, num4);
 task1.Multiplication();
 }
+if (mode == 3)
+{
+DivisionFunction task1 = new DivisionFunction(num1, num2, num3, num4);
+task1.Division();
+}
 }
 }
